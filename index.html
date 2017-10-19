@@ -83,7 +83,8 @@
   I used StaticGen's one drop deploy to Netlify using the MetalSmith site generator. There was really no reasoning for using this particular one
   outside of it used handlebars as the templating which I have used previously. From there I cloned the repository to my local machine and made sure it was connected to glyphicon-thumbs-up
   so I could push changes.I tried using Netlify's Playground to play around with the redirect but the "Test Rules"
-  button is broken. </p>
+  button is broken. I'll be honest I did not having any issues setting up the website. The only issue that I did not figure out
+was the bonus question about the redirects. I had trouble there. </p>
   <h3>Could you give us a suggestion to improve this test or the job posting?</h3>
 
   <p>One suggestion I have is using a few real world examples on what a ticket might look like and have the candidate
@@ -126,6 +127,18 @@
     <p>Be aware if the project directory has the same as your tool, the above command will not work. You can find more information
     <a href="https://www.netlify.com/docs/#helpful-hints">here</a>.</p>
 
+
+    <h3>    (optional/bonus) Can you set up a redirect from “/netlify/anything” to https://www.google.com/search?q=anything ?</h3>
+
+    <p>I tried setting up it but was unable to for whatever reason. I tried the following in the _redirects file:</p>
+
+    /netlify/anything   https://www.google.com/search?q=anything
+
+
+  <p>Then I figured the path netlify did not exist in my application yet so that reason for the error
+    so I took that off and just wrote /anything but that still gave me the 404 error. I also tried
+    doing placing the _redirects file in a different spot but that did not work either. That's why
+    there was extra commits at the end. :) </p>
 
 
 
