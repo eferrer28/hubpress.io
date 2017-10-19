@@ -26,7 +26,6 @@
   .container {
     position: relative;
     margin: 0 auto;
-    text-align: center;
     width: 700px;
   }
   h1 {
@@ -50,7 +49,7 @@
       <h1>Support Engineer Answers</h1>
 
       <h3>Rank your 5 favorite, and least favorite, activities from this list: https://gist.github.com/fool/b</h3>
-
+        <h2>Favorites</h2>
       <ul>
     <li>Engage multiple users at once via chat to answer their questions and troubleshoot problems</li>
   <li>Work with the development team to help design a new feature based on feedback from customers
@@ -58,6 +57,8 @@
  <li>Create video tutorials to help teach users a specific feature or use case</li>
  <li>Work with people to figure out if Netlify's service can solve a particular workflow or integration challenge they have</li>
 </ul>
+
+<h2>Least Favorites</h2>
 <ul>
 
  <li>Deliver a talk to many people you don't know at a conference or meetup</li>
@@ -69,7 +70,7 @@
 
 <h3>What is your favorite thing about providing technical support?</h3>
 <p>The thing I love most with providing technical support is helping the customer come up with a solution to their problem. I love problem solving in general and usually when a customer calls in they are more than likely
-  annoyed so we can both come to a positive resolution at the end it makes me feel good at the end</p>
+  annoyed so when we can both come to a positive resolution at the end it makes me feel good.</p>
 
 <h3>What did you think of our service during the time you used it?  Be honest!  “it sucked” isn’t a wrong answer unless you don’t elaborate and provide some constructive criticism ;)</h3>
 
@@ -78,9 +79,11 @@
   enough for your average person. I guess it all depends on who the target audience is.</p>
 
   <h3>Tell about how you made your site and why you chose the tools you did.  Briefly explain a challenge you experienced in setting up this site and how you solved it.</h3>
+  <p>
   I used StaticGen's one drop deploy to Netlify using the MetalSmith site generator. There was really no reasoning for using this particular one
   outside of it used handlebars as the templating which I have used previously. From there I cloned the repository to my local machine and made sure it was connected to glyphicon-thumbs-up
-  so I could push changes.
+  so I could push changes.I tried using Netlify's Playground to play around with the redirect but I the "Test Rules"</p>
+  button is broken. </p>
   <h3>Could you give us a suggestion to improve this test or the job posting?</h3>
 
   <p>One suggestion I have is using a few real world examples on what a ticket might look like and have the candidate
@@ -90,7 +93,8 @@
 
 <a href="	https://www.digitalocean.com/community/tutorials/how-to-use-the-wordpress-one-click-install">Digital Ocean</a>
 
-<p>I chose digital ocean for my documentation because I have used their service pretty frequently 	for hosting my websites. The link above was actually something I used personally when setting 	up my wordpress site. What I enjoy about Digital Ocean’s documentation is their frequent use 	of images when reading their docs. For me personally and I think a lot of people they will do 	better if they see images over a wall of text. With Digital Ocean it is usually a paragraph or two 	and then an image so it doesn’t feel too intimidating. Another thing I enjoy about them is that 	they don’t presume you know everything there is to know about the topic at hand. They write it
+<p>I chose digital ocean for my documentation because I have used their service pretty frequently 	for hosting my websites. The link above was actually something I used personally when setting up my wordpress site. What I enjoy most about Digital Ocean’s documentation is their frequent use 	of images when reading their docs.
+  For me personally I tend to retain information better if I can look through images sprinkled in with some text over a wall of text. With Digital Ocean it is usually a paragraph or two 	and then an image so it doesn’t feel too intimidating. Another thing I enjoy about them is that 	they don’t presume you know everything there is to know about the topic at hand. They write it
 	so even your average non-technical user can follow along.</p>
 
   <h3>Why do you think SSL/HTTPS is important?</h3>
@@ -99,7 +103,7 @@
 
   <h3>Explain, in a couple of paragraphs, what you think 2 major challenges around DNS configuration are for less-technical internet end-users</h3>
 
-  <p>	The first major challenge in my opinion for DNS configuration has to do with configuring your 	domain name. For people that have never set up a host name they would see the list of records 	such as A, AAAA, CNAME, etc. and right then and there they would not know how to proceed 	because they do not know which ones to fill out or if you should all out of them. An example 	would be if you wanted to use both www and a non-www domain, then you would need to add 	both those records. One to A type and the other to CNAME.<p>
+  <p>	The first major challenge in my opinion for DNS configuration has to do with configuring your 	domain name. For people that have never set up a host name they would see the list of records 	such as A, AAAA, CNAME, etc. and right then and there they would not know how to proceed 	because they do not know which ones to fill out or if you should all out of them. An example 	would be if you wanted to use both a www and a non-www domain, then you would need to add 	both those records. One to A type and the other to CNAME.<p>
 
   <p></p>
   <p></p>
@@ -121,6 +125,8 @@
 
     <p>Be aware if the project directory has the same as your tool, the above command will not work. You can find more information
     <a href="https://www.netlify.com/docs/#helpful-hints">here</a>.</p>
+
+    
 
 
 
